@@ -3,7 +3,7 @@ Easily connect to an SSM Managed Instance from your terminal.
 
 If you have SSM Managed Instances - and have pretty much disabled `SSH` LIKE A BOSS, then you might want to be able to connect to your instances super easily without faffing around in the AWS UI.
 
-If your EC2 Instances have easily idenfitiable tags - you might be in luck. This will try until one of them let's it connect, then tell you what to do. Or it will exit gracefully.
+If your EC2 Instances have easily idenfitiable tags - you might be in luck. This will try until one of them lets it connect, then tell you what to do. Or it will exit gracefully.
 
 ### Install:
 
