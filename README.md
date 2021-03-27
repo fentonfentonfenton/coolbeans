@@ -19,10 +19,9 @@ If your EC2 Instances have easily idenfitiable tags - you might be in luck. This
 ```Connecting to AWS
 /usr/local/bin/aws ssm start-session --target i-123abc
 
+$curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/instance-id
 
-curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/instance-id
-
-HTTP/1.1 200 OK
+>> HTTP/1.1 200 OK
 
 i-123abc
 ```
@@ -32,7 +31,7 @@ i-123abc
 
 ### OFC
 
-You need an AWS session for this to work, I.E. you need to have access keys in your environment. I use `aws-vault exec blah .coolbeans example.com` but if you use other ways it should work too!
+You need an AWS session for this to work, I.E. you need to have access keys in your environment. I use `aws-vault exec blah .c/oolbeans example.com` but if you use other ways it should work too!
 
 ### TO:DO
 
