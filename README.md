@@ -30,6 +30,10 @@ i-123abc
 * Profit
 
 
+### OFC
+
+You need an AWS session for this to work, I.E. you need to have access keys in your environment. I use `aws-vault exec blah .coolbeans example.com` but if you use other ways it should work too!
+
 ### TO:DO
 
 Make this read `stdin` so you can be interactive.
