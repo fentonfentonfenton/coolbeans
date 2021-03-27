@@ -7,9 +7,9 @@ If your EC2 Instances have easily idenfitiable tags - you might be in luck. This
 
 ### Install:
 
-* Install the SSM Plugin via https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html
+* Install the SSM Plugin via [AWS Session Manager Plugin](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html)
 
-* Grab the binary (only tested for OSX today but will work on WIN10 and Linux with a light touch) [m1](https://github.com/fentonfentonfenton/coolbeans/releases/download/0.0.1/coolbeans-m1) / [osx](https://github.com/fentonfentonfenton/coolbeans/releases/download/0.0.1/coolbeans-osx)
+* Grab the binary from here : (only tested for OSX today but will work on WIN10 and Linux with a light touch) [m1](https://github.com/fentonfentonfenton/coolbeans/releases/download/0.0.1/coolbeans-m1) / [osx](https://github.com/fentonfentonfenton/coolbeans/releases/download/0.0.1/coolbeans-osx)
 
 * `./coolbeans-osx example.com` - where the argument is a tag value you have for an instance
 
