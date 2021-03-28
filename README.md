@@ -31,13 +31,18 @@ i-123abc
 
 ### OFC
 
-You need an AWS session for this to work, I.E. you need to have access keys in your environment. I use `aws-vault exec blah .c/oolbeans example.com` but if you use other ways it should work too!
+You need an AWS session for this to work, I.E. you need to have access keys in your environment. I use `aws-vault example blah ./coolbeans example.com` but if you use other ways it should work too!
 
 ### TO:DO
 
 Make this read `stdin` so you can be interactive.
+
 Tests
+
 LINUX/WINDOWS
+
 Use different paramaters to identify servers.
+
+Unmarshall the entire struct rather than loop through it
 
 
