@@ -11,7 +11,7 @@ If your EC2 Instances have easily idenfitiable tags - you might be in luck. This
 
 * Grab the binary from here : (only tested for OSX today but will work on WIN10 and Linux with a light touch) [m1](https://github.com/fentonfentonfenton/coolbeans/releases/download/0.0.1/coolbeans-m1) / [osx](https://github.com/fentonfentonfenton/coolbeans/releases/download/0.0.1/coolbeans-osx)
 
-* `./coolbeans-osx example.com` - where the argument is a tag value you have for an instance
+* `./coolbeans-osx example` - where the argument is a tag value you have for an instance
 
 * !!!!?
 
